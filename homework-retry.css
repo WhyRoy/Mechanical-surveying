@@ -1,0 +1,498 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    min-width: 960px;
+    height: 64px;
+    background-color: rgb(51,51,51);
+    /*position: fixed;*/
+    z-index: 999;
+    box-shadow: 0 0.1em 1em black;
+}
+.header-content{
+    width: 1080px;
+    height: 4em;
+    margin: 0 auto;
+    /*line-height: 4em;*/
+    position: relative;
+}
+.header-content h1{
+    color: white;
+    /*padding-top: 0.2em;*/
+    line-height: 1.9em;
+    background: url("images/logo_画板 1.png") no-repeat left center;
+    background-size: 1.5em 1.5em;
+    padding-left: 2.5em;
+}
+.header-menu{
+
+    position: absolute;
+    top: 1.2em;
+    right: 0;
+}
+.header-menu ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.header-menu li{
+    display: inline-block;
+    margin-left: 1em;
+
+}
+.header-menu a{
+    color: white;
+    text-decoration: none;
+}
+.header-menu a:link,.header-menu a:visited{
+    color: white;
+
+}
+.header-menu a:focus,.header-menu a:hover{
+    color: lightgray;
+}
+.header-menu a:active{
+    color: gray;
+}
+.belly1{
+    width: 100%;
+    min-width: 960px;
+    height: 180px;
+    /*overflow: hidden;*/
+    /*background-color: rgb(175,33,37);*/
+
+}
+.banner-slide{
+    width: 100%;
+    height: 180px;
+    position: absolute;
+}
+.slide1{
+    background: url("images/belly1_bg1_画板 1.png") no-repeat left top;
+    background-size: 100%;
+}
+.slide2{
+    background: url("images/belly1_bg2_画板 1.png") no-repeat left top;
+    background-size: 100%;
+}
+.slide3{
+    background: url("images/belly1_bg3_画板 1.png") no-repeat left top;
+    background-size: 100%;
+}
+.slide4{
+    background: url("images/belly1_bg4.jpg") no-repeat left top;
+    background-size: 100%;
+}
+#belly1-content{
+    width: auto;
+    height: 255px;
+    margin: 0 auto;
+    position: relative;
+    right: 5em;
+}
+.belly1-pages{
+    /*border: 1px solid black;*/
+    position: absolute;
+    bottom: 30%;
+    right: 0;
+    margin-bottom: 0.5em;
+}
+#belly1-content ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#belly1-content li{
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+    /*background-color: white;*/
+
+}
+/*.belly1 li:nth-of-type(2){
+     padding-top: 2em;
+ }*/
+/*.belly1 span{
+     display: inline-block;
+     width: 100%;
+     height: 100%;
+     text-decoration: none;
+     text-align: center;
+     color: #000;
+     background-color: white;
+ }*/
+.changeColor{
+    background-color: rgb(219,31,49);
+    font-weight: bold;
+}
+/*.belly1 a:linked,.belly1 a:visited{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #000;
+    background-color: white;
+    text-align: center;
+}
+.belly1 a:hover,.belly1 a:active{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #000;
+    background-color: rgb(219,31,49);
+    text-align: center;
+    font-weight: bold;
+}*/
+/*.belly2{
+    width: 100%;
+    height: 4em;
+    box-sizing: border-box;
+    border-bottom: 1px solid lightgray;
+
+}*/
+.belly2-content{
+    width: 1080px;
+    height: 4em;
+    margin: 0 auto ;
+    position: relative;
+    bottom: 4em;
+    /*border: 1px solid gray;*/
+    box-sizing: border-box;
+
+}
+.belly2-pages{
+    position: absolute;
+    /*top: 1em;*/
+    /*margin-top: -59px;*/
+    left: 0;
+    box-sizing: border-box;
+}
+/*.belly2-pages ul{
+    list-style: none;
+    box-sizing: border-box;
+}
+.belly2-pages li{
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    width: 5em;
+    height: 3em;
+    background-color: rgb(51,51,51);
+    border: none;
+    border-radius: 30% 30% 0 0 ;
+}*/
+.belly2-pages h2{
+    /*background-color: white;*/
+    border: solid rgb(175,33,37) 1px;
+    width: 5em;
+    height: 2em;
+    line-height: 2em;
+    margin: 0;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+
+}
+.selected {
+    background-color: rgb(175,33,37);
+}
+/*.belly2 li:first-child{
+    border-bottom: 1px solid white;
+}*/
+.belly2-pages a:link,.belly2-pages a:visited{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    text-align: center;
+    line-height: 3em;
+    color: white;
+}
+.belly2-pages a:hover,.belly2-pages a:active{
+    background-color: rgb(175,33,37);
+    font-weight: bold;
+    border-radius: 30% 30% 0 0 ;
+}
+.belly3{
+
+    padding-top: 1em;
+    padding-bottom: 4em;
+    /*border-bottom: 1px solid gray;*/
+    background-color: rgba(175,33,37,0.1);
+}
+.belly3-content{
+    width: 1080px;
+    height: auto;
+    margin: 3.5em auto 0 auto;
+    /*border-bottom: 1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+/*.belly3-content video{
+    position: absolute;
+    left: 0;
+    top: 250px;
+    width: 320px;
+    height: auto;
+}*/
+.belly3-content .tools1{
+
+    background: url("images/vernier cliper.jpg") no-repeat 0 5%;
+    padding-left: 350px;
+    margin-bottom: 5em;
+}
+.tools1 video{
+    position: absolute;
+    left: 0;
+    top: 250px;
+    width: 320px;
+    height: auto;
+}
+.belly3-content .tools2{
+    background: url("images/steel rule.jpg") no-repeat right 5%;
+    padding-right: 350px;
+    margin-bottom: 3em;
+}
+.belly3-content .tools3{
+    background: url("images/internal calliper.jpg") no-repeat left 5%;
+    padding-left: 350px;
+    margin-bottom: 3em;
+}
+.belly3-content .tools4{
+    background: url("images/calliper gauge.jpg") no-repeat right 5%;
+    padding-right: 350px;
+    margin-bottom: 3em;
+}
+.belly3-content .tools5{
+    background: url("images/fillet gauge.jpg") no-repeat left 5%;
+    padding-left: 350px;
+    margin-bottom: 3em;
+}
+.belly3-content .tools6{
+    background: url("images/thread gauge.jpg") no-repeat right 5%;
+    padding-right: 350px;
+    margin-bottom: 3em;
+}
+.belly3-content .tools7{
+    background: url("images/micrometer.jpg") no-repeat left 5%;
+    padding-left: 350px;
+    margin-bottom: 3em;
+}
+.belly3-content .belly3_text {
+    padding-top: 40px;
+}
+.belly3_text p{
+    line-height: 1.5em;
+}
+.belly3_text h1 h2{
+    padding-top: 2em;
+}
+section{
+    /*flex: 1;*/
+    /*display: flex;*/
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*justify-content:center;*/
+    /*align-items:center;*/
+
+}
+.belly3-content .show{
+    display: flex;
+}
+.belly3-content a{
+    text-decoration: none;
+    color: white;
+}
+.welcome_page{
+    width: 100%;
+    height: 35em;
+    /*border: 1px solid black;*/
+    box-sizing: border-box;
+}
+.welcome_page .left_banner{
+    width: 30%;
+    height: 100%;
+    padding-top: 10%;
+    padding-left: 1em;
+    box-sizing: border-box;
+    float: left;
+    color: white;
+    background-color: rgb(103,4,7);
+    /*border: 1px solid lightgray;*/
+}
+.left_banner p:first-child{
+    font-size: 1.2em;
+    /*font-weight: bold;*/
+    background: url("images/logo_画板 1.png") no-repeat 60% center;
+    background-size: 1.5em 1.5em;
+    /*padding-right: 2em;*/
+    margin-bottom: 2em;
+}
+.left_banner p:nth-of-type(2){
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1.5em;
+    /*padding-left: 2em;*/
+    margin-bottom: 2em;
+}
+.left_banner p:nth-of-type(3){
+    text-transform: uppercase;
+}
+.welcome_page .right_banner{
+    width: 70%;
+    height: 100%;
+    padding: 3em 2em 0 3em;
+    box-sizing: border-box;
+    float: right;
+    color: white;
+    /*background-color: rgb(175,33,37);*/
+    background: url("images/wel_bg.jpg") no-repeat;
+    background-size: cover;
+    /*border: 1px solid lightgray;*/
+}
+
+.right_banner p:first-child{
+    font-size: 2em;
+    font-weight: bolder;
+    margin-bottom: 1.5em;
+}
+.right_banner p:nth-of-type(2){
+    font-weight: bold;
+    font-family: "Microsoft YaHei UI";
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+}
+.right_banner p:nth-of-type(3){
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+}
+.right_banner p:nth-of-type(4) span{
+    font-weight: bold;
+}
+.div-box{
+    /*width: 300px;*/
+    flex: 300px;
+    height: 250px;
+    /*flex: 1 ;*/
+    border: 1px solid lightgray;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    overflow: hidden;
+    /*padding: 80px;*/
+    position: relative;
+}
+.div-box img{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.div-box img:hover{
+     z-index: -1;
+ }
+.hidden{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background-color: rgba(175,33,37,0.8);
+    color: white;
+}
+.hidden h3{
+    margin: 15% 0 8% 0;
+    letter-spacing: 1em;
+}
+.hidden h4{
+    margin: 30% 0 8% 0;
+    letter-spacing: 1em;
+}
+.hidden p{
+    font-weight: lighter;
+    color: lightgray;
+}
+.hidden:hover{
+    z-index: 2;
+}
+.div-box:last-child{
+    margin-right: 0;
+}
+.fourth{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    background-color: rgba(0,65,130,0.3);
+}
+.fourth-content{
+    width: 75%;
+    margin: 0 auto;
+}
+/*一个CSS规则*/
+.fourth h1{
+    padding-top: 5%;
+    padding-bottom: 10%;
+    text-transform: capitalize;
+    font-weight: bolder;
+    letter-spacing: 2em;
+    color: rgb(9,50,50);
+}
+.fourth-content-raw{
+    display: flex;
+    flex-direction: row;
+}
+.fourth-box1,.fourth-box2,.fourth-box3{
+    flex: 1;
+    /*padding: 8% 2em;*/
+    padding-top: 8%;
+    padding-bottom: 8%;
+    line-height: 1.5em;
+    margin-right: 4em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: rgb(9,50,50);
+}
+.fourth-box1{
+    background: url("images/ProE@2x.png") no-repeat top center;
+    background-size: 18%;
+}
+.fourth-box2{
+    background: url("images/sview_logo.png") no-repeat 50% 2%;
+    background-size: 14%;
+}
+.fourth-box3{
+    background: url("images/教程.png") no-repeat 50% 4%;
+    background-size: 12%;
+}
+.fourth-box3 a{
+    display: inline-block;
+    padding-right: 2em;
+    color: rgb(50,50,50);
+    background: url("images/链接.png") no-repeat right center;
+    background-size: 30%;
+}
+.fourth-box3{
+    margin-right: 0;
+}
+.footer{
+    width: 100%;
+    min-width: 960px;
+    height: 5em;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+}
+
+
+

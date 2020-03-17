@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<swid:software_identification_tag xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:swid="http://standards.iso.org/iso/19770/-2/2008/schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.iso.org/iso/19770/-2/2008/schema.xsd software_identification_tag.xsd">
+  <swid:entitlement_required_indicator>true</swid:entitlement_required_indicator>
+  <swid:product_title>FlashFXP 5</swid:product_title>
+  <swid:product_version>
+    <swid:name>5.4.0.3970</swid:name>
+    <swid:numeric>
+      <swid:major>5</swid:major>
+      <swid:minor>4</swid:minor>
+      <swid:build>0</swid:build>
+      <swid:review>3970</swid:review>
+    </swid:numeric>
+  </swid:product_version>
+  <swid:software_creator>
+    <swid:name>OpenSight Software LLC</swid:name>
+    <swid:regid>regid.2000-02.com.flashfxp</swid:regid>
+  </swid:software_creator>
+  <swid:software_licensor>
+    <swid:name>OpenSight Software LLC</swid:name>
+    <swid:regid>regid.2000-02.com.flashfxp</swid:regid>
+  </swid:software_licensor>
+  <swid:software_id>
+    <swid:unique_id>FlashFXP 5</swid:unique_id>
+    <swid:tag_creator_regid>regid.2000-02.com.flashfxp</swid:tag_creator_regid>
+  </swid:software_id>
+  <swid:tag_creator>
+    <swid:name>OpenSight Software LLC</swid:name>
+    <swid:regid>regid.2000-02.com.flashfxp</swid:regid>
+  </swid:tag_creator>
+</swid:software_identification_tag>
